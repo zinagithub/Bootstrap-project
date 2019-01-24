@@ -76,6 +76,11 @@ body{
 
 .d-flex {
 	display: flex;
+	flex-direction: column;
+}
+
+.d-flex img {
+	height: auto;
 }
 
 button {
@@ -91,4 +96,8 @@ ul {
 
 ul li{
 	padding: 5px; 
+}
+
+.row1-footer {
+	border-bottom: 1px solid grey;
 }
