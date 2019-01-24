@@ -1,0 +1,51 @@
+*{
+   box-sizing: border-box;
+   padding : 0;
+   margin : 0;
+}
+
+body{
+   
+}
+.the-header{
+	background: red;
+	height: 80px;
+	color : white;
+}
+.down{
+	top :50px;
+}
+
+.navigation{
+	margin-top: 15px;
+}
+
+.infos{
+	margin-top: 15px;
+}
+.featured{
+	margin-top: 5px
+}
+.opinion,.stories {
+	display : flex;
+	margin-top: 10px;
+}
+.opinion img {
+  /*vertical-align:top;*/
+  width : 70px;
+  height: 70px; 
+}
+.title-opinion{
+	margin-left: 5px;
+	margin-top : 5px;
+}
+.title-opinion p{
+	margin-bottom: 0;
+}
+.conclusion{
+	margin-left : -15px ;
+	padding :10px 0;
+	border-top: 1px solid grey;
+	border-bottom : 1px solid grey
+
+}
