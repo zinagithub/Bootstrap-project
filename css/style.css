@@ -1,0 +1,162 @@
+
+
+*{
+   box-sizing: border-box;
+   padding : 0;
+   margin : 0;
+}
+
+body{
+   
+}
+.the-header{
+	background: red;
+	height: 80px;
+	color : white;
+}
+.down{
+	margin-top :40px;
+}
+
+
+.infos, .in-the-magazine, .navigation{
+	margin-top: 15px;
+}
+.infos{
+	border-top : 1px solid grey;
+}
+.in-the-magazine p:nth-child(1){
+	text-align: center;
+	font-size: 20px;
+	padding : 15px;
+} 
+#add-mrg-top{
+	margin-top: 10px;
+}
+.navigation {
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.black{
+    font-weight: bold;
+	color : black;
+}
+.navigation div:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.navigation div {
+	border-right: 1px solid grey
+}
+
+.featured{
+	margin-top: 5px
+}
+.opinion {
+	margin-left :5px;
+}
+.opinion,.stories {
+	display : flex;
+	margin-top: 10px;
+}
+.opinion img {
+  width : 70px;
+  height: 70px; 
+}
+.title-opinion{
+	margin-left: 5px;
+	margin-top : 5px;
+}
+.title-opinion p{
+	margin-bottom: 0;
+}
+.conclusion{
+	margin-left : -15px ;
+	padding :10px 0;
+	border-top: 1px solid grey;
+	border-bottom : 1px solid grey
+
+}
+.latest-news{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.last-col-magazine{
+	display : flex;
+	margin-bottom: 5px;
+}
+.last-col-magazine img {
+	width : 150px;
+	height: 80px
+}
+
+.d-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.mybutton {
+	padding :0 5px 0 5px;
+	width : 115px;
+	height: 25px;
+	background-color: white;
+	color: red; 
+	text-transform: uppercase; 
+	outline: none;
+	border : 1px solid white;
+	font-size: 14px;
+	font-weight: bold
+}
+
+
+.nav1  li{
+	padding-left: 20px; 
+	font-size: 20px;
+}
+.nav2  li{
+	
+	padding : 3px 3px 3px 0px;
+	margin-top: 3px;
+	margin-right : 20px; 
+	font-size: 13px;
+	
+}
+.row1-footer {
+	border-top : 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding : 15px;
+}
+.nav3 {
+	margin-top: 5px
+}
+.nav3  li{
+	padding-left:10px;
+	margin : 2px 0px auto; 
+	font-size: 13px;
+}
+.nav3 li:nth-child(1){
+    padding-left :0;
+    font-weight: bold;
+  }
+
+footer{
+	margin-top: 50px;
+
+	
+}
+@media (max-width: 767px) {
+  .nav1 {
+    float: left !important;
+
+  }
+  .nav1 li:nth-child(1){
+    padding-left :0;
+  }
+}
+
