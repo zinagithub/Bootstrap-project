@@ -6,6 +6,7 @@
 	<!-- first Mobile Meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -17,27 +18,34 @@
 
 </head>
 <body>
-	 <div class = "container">
+	<div class = "container">
 
           <!-- The Header Row-->
-	 	  <div class = "row the-header text-center" >
-	 	  	   <div class = "col-xs-12 col-sm-6 col-md-3 hidden-sm hidden-xs down">
+	 	<div class = "row the-header" >
+	 	  	<div class = "col-xs-6 col-sm-6 col-md-3 hidden-sm hidden-xs  pull-left down">
                     <h4>Tue, Jan 22, 2019</h4>
-	 	  	   </div>
-	 	  	   <div class = "col-xs-12 col-sm-6 col-md-6">
-	 	  	   	    <h1 class="display-3">Newsweek</h1>
-	 	  	   </div>
-	 	  	   <div class = "col-xs-12 col-sm-6 col-md-3 hidden-xs">
-	 	  	   	   <h3>Singn In</h3>
-	 	  	   	  <button type="button" class="btn">Primary</button>
-	 	  	   </div>
+	 	  	</div>
+	 	  	<div class = "col-xs-6 col-sm-6 col-md-6 hidden-sm hidden-xs text-center">
+	 	  	   	<h1>Newsweek</h1>
+	 	  	</div>
+               <div class = "col-xs-3 col-sm-6 visible-xs  visible-sm  text-left">
+                    <h3 class = "down">Newsweek</h3>
+               </div>
+	 	  	<div class = " col-xs-9  col-sm-6 col-md-3  down">
+                    <div style = "display :inline" class="pull-right">
+                         <p style = "font-size:15px;margin: 0 10px auto;display :inline">Singn In</p>
+                         <button  class=" mybutton">suscribe</button>
+                         <i  class= "fa fa-bars"></i>
+                    </div>	 	  	   	   
+	 	  	</div>
 	 	  </div>
+          <!-- END Header Row--> 
 
           <!-- The Navigation Row -->
-	 	  <div class = "row text-center navigation">
+	 	<div class = "row text-center navigation">
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">U.S.</div>
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">World</div>
-	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Business</div>
+	 	  	<div class = "col-md-2 hidden-sm hidden-xs">Business</div>
 	 	  	<div class = "col-md-2 hidden-sm hidden-xs">Tech & Science</div>
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Culture</div>
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Sport</div>
@@ -45,62 +53,78 @@
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Opinion</div>
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Ndelible</div>
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Search</div>
-	 	  	<div class = "col-md-1 hidden-sm hidden-xs"></div>
-	 	  </div>
-
+	 	</div>
+          <!-- End Navigation Row -->
 
           <!-- The News Row -->
           <div class = "row infos">
-          	   <!-- The first columns -->
-          	   <div class = "col-xs-12 col-sm-6 col-md-3">
+          	<!-- The first columns -->
+          	<div class = "col-xs-12 col-sm-6 col-md-3 ">
+                    
                     <div class = "row ">
-                    	 <div class = "col-xs-12">
-                    	 	  <p>FEATURED STORIES</p>
+                    	<div class = "col-xs-12">
+                    	 	<p id = "add-mrg-top">FEATURED STORIES</p>
 
-                    	 	  <article class = "row featured">
-                    	 	  	   <img src="img/trump-pelosi.jpg" width ="300"> 
-                                   <h4>Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
+                    	 	<article class = "row featured">
+                    	 	  	<img src="img/trump-pelosi.jpg" class = "img-responsive"> 
+                                   <h4 class = "black">Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
                                    <p>With House Speaker Nancy Pelosi and President Donald Trump vowing not to give in, the House and Senate will take diverging paths this week on spending legislation.</p>
-                    	 	  </article>
-                    	 	  <div class = "row conclusion">
-                    	 	  	   <p>Pelosi Wants Trump to Postpone State of the Union</p>
-                    	 	  </div>
+                    	 	</article>
 
-                    	 	  <article class = "row featured">
-                    	 	  	   <img src="img/trump-pelosi.jpg" width ="300"> 
-                                   <h4>Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
-                                   <p>With House Speaker Nancy Pelosi and President Donald Trump vowing not to give in, the House and Senate will take diverging paths this week on spending legislation.</p>
-                    	 	  </article>
-                    	 	  <div class = "row conclusion" >
-                    	 	  	   <p>Pelosi Wants Trump to Postpone State of the Union</p>
-                    	 	  </div>
+                    	     <div class = "row conclusion">
+                    	 	  	<p id = "black">Pelosi Wants Trump to Postpone State of the Union</p>
+                    	 	</div>
+
+                    	 	<article class = "row featured">
+                    	 	  	<img src="img/jared.jpg" class = "img-responsive"> 
+                                   <h4 class = "black">Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
+                                   <p>A Washington Post report describes the rising influence of the president's son-in-law.</p>
+                    	 	</article>
+
+                    	 	<div class = "row conclusion" >
+                    	 	  	<p class = "black">Pelosi Wants Trump to Postpone State of the Union</p>
+                    	 	</div>
                               
-                    	 </div>
+                    	</div>
 
                     </div>
-	 	  	   </div>
+	 	  	</div>
                <!-- The second columns -->
-	 	  	   <div class = "col-xs-12 col-sm-6 col-md-5">
-	 	  	   	    <div class = "row " style ="margin-left: 5px">
-                    	 <div class = "col-xs-12">
-                    	 	  <p>TOP STORIES</p>
-                              <div class = "row">
-                              	  <div class = "" >
-                              	  	<img src="img/supreme-court.jpg" width ="450"> 
-                              		<h4>Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
-                              		<p>With House Speaker Nancy Pelosi and President Donald Trump vowing not to give in, the House and Senate will take diverging paths this week on spending legislation.</p>
-                    	 	  	  </div>
-                              </div>
+	 	  	<div class = " col-sm-6  col-md-5 col-xs-12">
+                   
+	 	  	   	<div class = "row " style ="margin-left: 5px">
+                    	<div class = "col-xs-12">
+                    	 	<p id = "add-mrg-top">TOP STORIES</p>
+                                   <div class = "row">
+                              	     <div >
+                              	  	    <img src="img/supreme-court.jpg" class = "img-responsive"> 
+                              		    <h4 class ="black">Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
+                              		    <p>With House Speaker Nancy Pelosi and President Donald Trump vowing not to give in, the House and Senate will take diverging paths this week on spending legislation.</p>
+                    	 	  	     </div>
+                                   </div>
+
                               <div class = "row conclusion" >
-                    	 	  	   <p>Pelosi Wants Trump to Postpone State of the Union</p>
-                    	 	  </div>
+                    	 	  	<p class = "black">Pelosi Wants Trump to Postpone State of the Union</p>
+                    	 	</div>
 
                               <div class = "row">
                     	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
+                    	 	  	    <img src="img/gettyimages2.jpg"  class = "img-responsive" >
+                    	 	  	    <div class = "title-opinion">
+                    	 	  	  	   <p class = "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                           <p>The president agreed to Nancy Pelosi's request to delay the address during the ongoing government shutdown.</p>
+                    	 	  	     </div>
+                                  
+                    	 	     </div>
+                                
+                    	 	</div>
+
+                    	 	 <div class = "row">
+                    	 	    <div class = "stories" >
+                    	 	  	  <img src="img/gettyimages2.jpg" class = "img-responsive" >
                     	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
+                    	 	  	  	<p class="black" >Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                        <p>The president agreed to Nancy Pelosi's request to delay the address during the ongoing government shutdown.</p>
                     	 	  	  </div>
                                   
                     	 	    </div>
@@ -109,10 +133,10 @@
 
                     	 	 <div class = "row">
                     	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
+                    	 	  	  <img src="img/gettyimages2.jpg" class = "img-responsive">
                     	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
+                    	 	  	  	<p class="black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                        <p>A Washington Post report describes the rising influence of the president's son-in-law.</p>
                     	 	  	  </div>
                                   
                     	 	    </div>
@@ -121,120 +145,117 @@
 
                     	 	 <div class = "row">
                     	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
+                    	 	  	  <img src="img/gettyimages2.jpg" class = "img-responsive">
                     	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
+                    	 	  	  	<p class="black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                        <p>By Robert Reich</p>
                     	 	  	  </div>
                                   
                     	 	    </div>
                                 
                     	 	 </div>
-
-                    	 	 <div class = "row">
-                    	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
-                                  
-                    	 	    </div>
-                                
-                    	 	 </div>
-                    	 </div>
+                    	</div>
                          
                     </div>
 
-	 	  	   </div>
-	 	  	   <!-- The third columns -->
+	 	  	</div>
+	 	  	<!-- The third columns -->
                <div class = "col-xs-12 col-sm-6 col-md-4">
-               	    <div class = "row ">
-                    	 <div class = "col-xs-12">
-                    	 	<p>OPINION</p>
-
-
-                    	 	 <div class = "row">
+               	<div class = "row ">
+                    	<div class = "col-xs-12">
+                    	 	<p id = "add-mrg-top">OPINION</p>
+                    	 	<div class = "row">
+                              <div class = "col-xs-12">
                     	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                    	 	  	     <img src="img/robert_reich.png"  class = "img-circle img-responsive">
+                    	 	  	     <div class = "title-opinion">
+                    	 	  	  	  <p class= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                          <p>By Robert Reich</p>
+                    	 	  	     </div>
                                   
-                    	 	    </div>
-
+                    	 	     </div>
+                               </div>   
                     	 	 </div>
 
                               
 
                               <div class = "row">
+                                  <div class = "col-xs-12"> 
                     	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
+                    	 	  	   <img src="img/gingrich.png"  class = "img-circle">
+                    	 	  	   <div class = "title-opinion">
+                    	 	  	  	<p class= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                        <p>By Robert Reich</p>
+                    	 	  	   </div>
+                                  
+                    	 	     </div>
+                                   </div>  
+                    	 	 </div>
+
+                    	 	<div class = "row">
+                                   <div class = "col-xs-12">
+                    	 	     <div class = "opinion" >
+                    	 	  	  <img src="img/lee_habeeb.png"  class = "img-circle">
                     	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
+                    	 	  	     <p class= "black">Trump's Shutdown Reveals Failure of  Trumponomics.</p>
+                                        <p>By Robert Reich</p>
                     	 	  	  </div>
                                   
-                    	 	    </div>
+                    	 	     </div>
+                                   </div>
+                    	 	 </div>
+
+                    	 	<div class = "row">
+                                   <div class = "col-xs-12">
+                    	 	     <div class = "opinion" >
+                    	 	  	  <img src="img/nina4.png"  class = "img-circle">
+                    	 	  	  <div class = "title-opinion">
+                    	 	  	  	  <p class= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                      <p>By Robert Reich</p>
+                    	 	  	  </div>
+                                   </div>
+                    	 	</div>
 
                     	 	 </div>
 
                     	 	 <div class = "row">
+                                   <div class = "col-xs-12">
                     	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
+                    	 	  	  <img src="img/peter_roff.png"  class = "img-circle">
                     	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
+                    	 	  	  	  <pclass= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                      <p>By Peter Roff</p>
                     	 	  	  </div>
                                   
                     	 	    </div>
-
-                    	 	 </div>
-
-                    	 	 <div class = "row">
-                    	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
-                                  
-                    	 	    </div>
-
-                    	 	 </div>
-
-                    	 	 <div class = "row">
-                    	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
-                                  
-                    	 	    </div>
-
+                                  </div>
                     	 	 </div>
                     	 	 
 
                     	 	 <div class = "row">
+                                   <div class = "col-xs-12">
                     	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
+                    	 	  	  <img src="img/richardson3.png"  class = "img-circle">
                     	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                    	 	  	  	  <p class= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
                                       <p>By Robert Reich</p>
                     	 	  	  </div>
                                   
                     	 	    </div>
-
+                                  </div>
                     	 	 </div> 
                     	 	 
 
                     	 	 <div class = "row">
+                                   <div class = "latest-news">
+                                        <h4>Latest News</h4>
+                                   </div>
+                                   
                     	 	    <div class = "stories" >
+
                     	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
                     	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                    	 	  	  	  <p class= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
                                       <p>By Robert Reich</p>
                     	 	  	  </div>
                                   
@@ -277,161 +298,162 @@
                     	 	    </div>
                                 
                     	 	 </div>                               
-                    	 </div>
+                    	</div>
 
                     </div>
                </div> 
           </div>
           <!-- in-the-magazine  Row -->
           <div class = "row in-the-magazine">
-          	   <p>IN THE MAGAZINE</p>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	   <img src="img/trump-pelosi.jpg" >
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p> 
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
+          	<p>IN THE MAGAZINE</p>
+          	<div class = "col-xs-12 col-sm-3 ">
+          	   	<img src="img/trump-pelosi.jpg"  class = "img-responsive">
+          	   	<p>Computer Program and Teenager Compete for AI Domination</p> 
+          	</div>
+          	<div class = "col-xs-12 col-sm-3">
+          	   	<img src="img/trump-pelosi.jpg" class = "img-responsive">
           	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	   <img src="img/trump-pelosi.jpg" >
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p> 
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
+          	</div>
+          	<div class = "col-xs-12 col-sm-3 ">
+          	   	<img src="img/trump-pelosi.jpg" class = "img-responsive">
+          	   	<p>Computer Program and Teenager Compete for AI Domination</p>
+          	</div>
+          	<div class = "col-xs-12 col-sm-3 " class = "img-responsive">
+          	   	<img src="img/trump-pelosi.jpg" class = "img-responsive">
+          	   	<p>Computer Program and Teenager Compete for AI Domination</p>
+          	</div>
+          	<div class = "col-xs-12 col-sm-3 " class = "img-responsive">
+          	   	<img src="img/trump-pelosi.jpg" class = "img-responsive">
+          	   	<p>Computer Program and Teenager Compete for AI Domination</p> 
+          	</div>
+          	<div class = "col-xs-12 col-sm-3 ">
+          	   	<img src="img/trump-pelosi.jpg" class = "img-responsive">
+          	   	<p>Computer Program and Teenager Compete for AI Domination</p>
+          	</div>
+          	<div class = "col-xs-12 col-sm-3 " class = "img-responsive">
+          	   	<img src="img/trump-pelosi.jpg" class = "img-responsive">
+          	   	<p>Computer Program and Teenager Compete for AI Domination</p>
+          	</div>
+          	<div class = "col-xs-12 col-sm-3 " class = "img-responsive">
+          	   	<img src="img/trump-pelosi.jpg" class = "img-responsive">
+          	   	<p>Computer Program and Teenager Compete for AI Domination</p>
+          	</div>
           </div> 
           <!-- in-the-magazine  Row -->
 
           <div class = "row">
                <h1 class="text-center">Featured Slideshows</h1>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
+               <div class = "col-xs-12 col-sm-4 d-flex">
+                    <img src="img/slideshow.jpg" class = "img-responsive">
                     <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
                </div>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
+               <div class = "col-xs-12 col-sm-4 d-flex">
+                    <img src="img/image-00.jpg" class = "img-responsive">
                     <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
                </div>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
+               <div class = "col-xs-12 col-sm-4 d-flex">
+                    <img src="img/image-00_1.jpg" class = "img-responsive">
                     <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
                </div>
-             </div>
-             <div class = "row">
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
+          </div>
+          <div class = "row">
+               <div class = "col-xs-12 col-sm-4 ">
+                    <img src="img/slideshow.jpg" class = "img-responsive">
                     <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
                </div>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/slideshow.jpg" class = "img-responsive">
                     <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
                </div>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
+               <div class = "col-xs-12 col-sm-4 ">
+                    <img src="img/slideshow.jpg" class = "img-responsive">
                     <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
                </div>
           </div>
 
 
           <div class = "row">
-          	   <h1>U.S</h1>
-          	   <div class = "col-xs-12 col-sm-3">
-          	   	    <img src="img/photo1.jpg" width = "280">
-          	   	    <h4>Measles Prompts Health Emergency in Washington County</h4>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3">
-          	   	    <img src="img/photo1.jpg" width = "280">
-          	   	    <h4>Measles Prompts Health Emergency in Washington County</h4>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-6 ">
-          	   	    <div class = "row">
-          	   	    	 <div class = "col-sm-12 last-col-magazine">
-          	   	    	 	  <img src="img/photo1.jpg">
-          	   	              <p>Measles Prompts Health Emergency in Washington County</p>
-          	   	    	 </div>
+          	<h1>U.S</h1>
+          	<div class = "col-xs-12 col-sm-3">
+          	   	<img src="img/photo1.jpg" class = "img-responsive">
+          	   	<h4>Measles Prompts Health Emergency in Washington County</h4>
+          	</div>
+          	<div class = "col-xs-12 col-sm-3">
+          	   	<img src="img/photo1.jpg" class = "img-responsive">
+          	   	<h4>Measles Prompts Health Emergency in Washington County</h4>
+          	</div>
+          	<div class = "col-xs-12 col-sm-6 ">
+          	   	<div class = "row">
+          	   	    	<div class = "col-sm-12 last-col-magazine">
+          	   	    	 	<img src="img/photo1.jpg" class = "img-responsive">
+          	   	          <p>Measles Prompts Health Emergency in Washington County</p>
+          	   	    	</div>
           	   	    	 
-          	   	    </div>
-          	   	    <div class = "row">
-          	   	    	 <div class = "col-sm-12 last-col-magazine">
-          	   	    	 	  <img src="img/photo1.jpg">
-          	   	              <p>Measles Prompts Health Emergency in Washington County</p>
-          	   	    	 </div>
+          	   	</div>
+          	   	<div class = "row">
+          	   	    	<div class = "col-sm-12 last-col-magazine">
+          	   	    	 	<img src="img/photo1.jpg" class = "img-responsive">
+          	   	          <p>Measles Prompts Health Emergency in Washington County</p>
+          	   	    	</div>
           	   	    	 
-          	   	    </div>
-          	   	    <div class = "row">
-          	   	    	 <div class = "col-sm-12 last-col-magazine">
-          	   	    	 	  <img src="img/photo1.jpg">
-          	   	              <p>Measles Prompts Health Emergency in Washington County</p>
-          	   	    	 </div>
+          	   	</div>
+          	   	<div class = "row">
+          	   	    	<div class = "col-sm-12 last-col-magazine">
+          	   	    	 	<img src="img/photo1.jpg" class = "img-responsive">
+          	   	          <p>Measles Prompts Health Emergency in Washington County</p>
+          	   	     </div>
           	   	    	 
-          	   	    </div>
+          	   	</div>
           	   	    
-          	   </div>
+          	</div>
           </div>
 
-
-          <footer class="container">
+          
+          <footer >
           	   <div class= "row row1-footer">
-          	   	    <div class = "col-xs-12 col-sm-3">
-          	   	    	<p><span>Newsweek</span> © 2019 NEWSWEEK </p>
-          	   	    </div>
-          	   	    <div class = "col-xs-12 col-sm-3 pull-right">
-          	   	    	<ul>
-                        <li>fb</li>
-                        <li>tw</li>
-                        <li>g+</li>
-                        <li>inst</li>
-                        <li>tmblr</li>
-                        <li>in</li>
-                      </ul>
-          	   	    </div>
+          	   	<div class = " col-sm-7">
+          	   	    <p><span>Newsweek</span> © 2019 NEWSWEEK </p>
+          	   	</div>
+          	   	<div class = " col-sm-5 ">
+          	   	    <ul class="nav nav-pills nav1 pull-right">
+                             <li ><i class="fa fa-facebook"></i></li>
+                             <li><i class="fa fa-twitter"></i></li>
+                             <li><i class="fa fa-google-plus"></i></li>
+                             <li><i class="fa fa-instagram"></i></li>
+                             <li><i class="fa fa-tumblr"></i></li>
+                             <li><i class="fa fa-linkedin"></i></li>
+                        </ul>
+          	   	</div>
           	   </div>
           	   <div class= "row row2-footer">
-          	   	    <div class = "col-xs-12 col-sm6">
-                     <ul>
-                        <li>About Us</li>
-                        <li>Corrections</li>
-                        <li>Contact Us+</li>
-                        <li>Travel</li>
-                        <li>Advertise</li>
-                        <li>Copyright</li>
-                        <li>Terms & Conditions</li>
-                        <li>Privacy Policy</li>
-                        <li>Cookie Policy</li>
-                        <li>Terms of Sale</li>
-                        <li>Archive</li>
-                        <li>Announcements</li>
-                        <li>Consent preferences</li>
-                     </ul> 
-                    </div>
-                    <div class = "col-xs-12 col-sm6">
-                     <ul>
-                        <li>U.S. Edition</li>
-                        <li>Middle East</li>
-                        <li>日本</li>
-                        <li>한국</li>
-                        <li>Pakistan</li>
-                        <li>Polska</li>
-                        <li>România</li>
-                     </ul> 
+          	   	    <div class = " col-sm-7">
+                        <ul class="nav nav-pills text-center nav2">
+                             <li >About Us </li>
+                             <li>Corrections </li>
+                             <li>Contact Us+ </li>
+                             <li>Travel </li>
+                             <li>Advertise </li>
+                             <li>Copyright </li>
+                             <li>Terms & Conditions|</li>
+                             <li>Privacy Policy</li>
+                             <li>Cookie Policy </li>
+                             <li>Terms of Sale </li>
+                             <li>Archive </li>
+                             <li>Announcements </li>
+                             <li>Consent preferences </li>
+                         </ul> 
+                         </div>
+                    <div class = "col-xs-12 col-sm-5">
+                        <ul class = "nav nav-pills nav3">
+                             <li>U.S. Edition:</li>
+                             <li>Middle East </li>
+                             <li>日本</li>
+                             <li>한국 </li>
+                             <li>Pakistan</li>
+                             <li>Polska</li>
+                             <li>România</li>
+                        </ul> 
+                         
                     </div>
           	   </div>
           </footer>
