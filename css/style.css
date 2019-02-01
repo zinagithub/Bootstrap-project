@@ -4,15 +4,33 @@
    box-sizing: border-box;
    padding : 0;
    margin : 0;
+   font-family: 'Oswald', sans-serif;
+
 }
 
-body{
-   
-}
+
 .the-header{
 	background: red;
 	height: 80px;
 	color : white;
+	
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.brand1 svg {
+   fill :#fff;
+   width:350px;
+   margin-top: 20px
+}
+.brand2 svg {
+   fill :#fff;
+   width:100px;
+   margin-top: 45px
+}
+.brand3 svg {
+   fill :red;
+   width:200px;
+  
 }
 .down{
 	margin-top :40px;
@@ -23,20 +41,21 @@ body{
 	margin-top: 15px;
 }
 .infos{
-	border-top : 1px solid grey;
+	border-top : 1px solid #d9d9d9;
 }
 .in-the-magazine p:nth-child(1){
 	text-align: center;
 	font-size: 20px;
 	padding : 15px;
 } 
-#add-mrg-top{
+.add-mrg-top{
 	margin-top: 10px;
 }
 .navigation {
-	font-size: 16px;
+	font-size: 1.3vw;
 	font-weight: bold;
-
+    color : black;
+    width :110%;
 }
 .black{
     font-weight: bold;
@@ -48,14 +67,24 @@ body{
 }
 
 .navigation div {
-	border-right: 1px solid grey
+	border-right: 1px solid #d9d9d9
 }
-
+.navigation div:last-child {
+	border-right: 1px solid white
+}
 .featured{
 	margin-top: 5px
 }
 .opinion {
 	margin-left :5px;
+	padding-bottom : 10px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.stories {
+	margin-left :10px;
+	padding-bottom : 10px;
+	padding-left : 3px;
+	border-bottom: 1px solid #d9d9d9;
 }
 .opinion,.stories {
 	display : flex;
@@ -65,25 +94,45 @@ body{
   width : 70px;
   height: 70px; 
 }
+.magazine-featured {
+	margin-top: 40px;
+	padding: 20px;
+	border-bottom: 1px solid #d9d9d9
+}
 .title-opinion{
 	margin-left: 5px;
 	margin-top : 5px;
+
 }
 .title-opinion p{
 	margin-bottom: 0;
 }
+.title-opinion p a{
+	text-decoration: none;
+	color : black;
+	font-weight: bold;
+}
+.title-opinion p a:hover{
+	
+	color : red;
+}
 .conclusion{
-	margin-left : -15px ;
-	padding :10px 0;
-	border-top: 1px solid grey;
-	border-bottom : 1px solid grey
+	padding: 10px 0;
+	border-top: 1px solid #d9d9d9;
+	border-bottom : 1px solid #d9d9d9
 
 }
 .latest-news{
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-bottom: 5px;
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
+	padding-left : 20px;
+}
+.row-magazine {
+	padding : 20px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.in-the-magazine{
+	margin-top: 50px;
 }
 
 .last-col-magazine{
@@ -94,7 +143,12 @@ body{
 	width : 150px;
 	height: 80px
 }
-
+.row-us h1 {
+	margin-left: 10px
+}
+.last-col-magazine p{
+	margin-left: 10px;
+}
 .d-flex {
 	display: flex;
 	flex-direction: column;
@@ -113,7 +167,20 @@ body{
 	font-size: 14px;
 	font-weight: bold
 }
-
+.mybutton2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding :0 5px 0 5px;
+	width : 115px;
+	height: 25px;
+	background-color: red;
+	color:#FFF; 
+	text-transform: uppercase; 
+	outline: none;
+	border : 1px solid red;
+	font-size: 14px;
+	font-weight: bold
+}
 
 .nav1  li{
 	padding-left: 20px; 
@@ -125,11 +192,16 @@ body{
 	margin-top: 3px;
 	margin-right : 20px; 
 	font-size: 13px;
+	border-right: 1px solid #d9d9d9
 	
 }
+.nav2 li:last-child{
+  	border-right: 1px solid white
+
+}
 .row1-footer {
-	border-top : 1px solid gray;
-	border-bottom: 1px solid gray;
+	border-top : 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
 	padding : 15px;
 }
 .nav3 {
