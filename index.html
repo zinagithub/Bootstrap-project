@@ -6,6 +6,8 @@
 	<!-- first Mobile Meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -17,24 +19,34 @@
 
 </head>
 <body>
-	 <div class = "container">
+	<div class = "container">
 
           <!-- The Header Row-->
-	 	  <div class = "row the-header text-center" >
-	 	  	   <div class = "col-xs-12 col-sm-6 col-md-3 hidden-sm hidden-xs down">
-                    <h4>Tue, Jan 22, 2019</h4>
-	 	  	   </div>
-	 	  	   <div class = "col-xs-12 col-sm-6 col-md-6">
-	 	  	   	    <h1 class="display-3">Newsweek</h1>
-	 	  	   </div>
-	 	  	   <div class = "col-xs-12 col-sm-6 col-md-3 hidden-xs">
-	 	  	   	   <h3>Singn In</h3>
-	 	  	   	  <button type="button" class="btn">Primary</button>
-	 	  	   </div>
-	 	  </div>
+	 	<div class = "row the-header" >
+	 	  	<div class = "col-xs-6 col-sm-6 col-md-3 hidden-sm hidden-xs  pull-left down">
+                    <h4 style="text-transform: initial;">Tue, Jan 22, 2019</h4>
+	 	  	</div>
+
+	 	  	<div class = "col-xs-6 col-sm-6 col-md-6 hidden-sm hidden-xs text-center ">
+                    <a class="brand1" href="/"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g><path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2   L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11   c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6     H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13 c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2     C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7   h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4     c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1    c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6    C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5  h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9 c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2     c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9 C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1     c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6 v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3   c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5 h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path></g></svg></a>
+
+	 	  	</div>
+               <div class = "col-xs-3 col-sm-6 visible-xs  visible-sm  text-left">
+                    <a class="brand2" href="/"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g><path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2   L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11   c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6     H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13 c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2     C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7   h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4     c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1    c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6    C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5  h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9 c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2     c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9 C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1     c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6 v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3   c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5 h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path></g></svg></a>
+               </div>
+	 	  	<div class = " col-xs-9  col-sm-6 col-md-3  down">
+                    <div style = "display :inline" class="pull-right">
+                         <p style = "font-size:15px;margin: 0 5px auto;display :inline">Sign In</p>
+                         <button  class=" mybutton">suscribe</button>
+                         <i  class= "fa fa-bars" style="margin-left: 5px;font-size: 20px"></i>
+                    </div>	 	  	   	   
+	 	  	</div>
+	 	</div>
+          
+          <!-- END Header Row--> 
 
           <!-- The Navigation Row -->
-	 	  <div class = "row text-center navigation">
+	 	<div class = "row text-center navigation">
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">U.S.</div>
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">World</div>
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Business</div>
@@ -45,398 +57,755 @@
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Opinion</div>
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Ndelible</div>
 	 	  	<div class = "col-md-1 hidden-sm hidden-xs">Search</div>
-	 	  	<div class = "col-md-1 hidden-sm hidden-xs"></div>
-	 	  </div>
-
-
+	 	</div>
+          <!-- End Navigation Row -->
           <!-- The News Row -->
           <div class = "row infos">
-          	   <!-- The first columns -->
-          	   <div class = "col-xs-12 col-sm-6 col-md-3">
+               <!-- The first columns -->
+               <div class = "col-xs-12 col-sm-6 col-md-3 ">
+                    
                     <div class = "row ">
-                    	 <div class = "col-xs-12">
-                    	 	  <p>FEATURED STORIES</p>
+                         <div class = "col-xs-12">
+                              <p class = "add-mrg-top">FEATURED STORIES</p>
 
-                    	 	  <article class = "row featured">
-                    	 	  	   <img src="img/trump-pelosi.jpg" width ="300"> 
-                                   <h4>Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
-                                   <p>With House Speaker Nancy Pelosi and President Donald Trump vowing not to give in, the House and Senate will take diverging paths this week on spending legislation.</p>
-                    	 	  </article>
-                    	 	  <div class = "row conclusion">
-                    	 	  	   <p>Pelosi Wants Trump to Postpone State of the Union</p>
-                    	 	  </div>
+                              <article class = "row featured">
+                                   <div class = "col-xs-12">
+                                        <img src="img/trump-pelosi.jpg" alt = "trump-pelosi" class = "img-responsive"> 
+                                        <h4 class = "black">Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
+                                        <p>With House Speaker Nancy Pelosi and President Donald Trump vowing not to give in, the House and Senate will take diverging paths this week on spending legislation.</p>
+                                   </div>     
+                              </article>
 
-                    	 	  <article class = "row featured">
-                    	 	  	   <img src="img/trump-pelosi.jpg" width ="300"> 
-                                   <h4>Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
-                                   <p>With House Speaker Nancy Pelosi and President Donald Trump vowing not to give in, the House and Senate will take diverging paths this week on spending legislation.</p>
-                    	 	  </article>
-                    	 	  <div class = "row conclusion" >
-                    	 	  	   <p>Pelosi Wants Trump to Postpone State of the Union</p>
-                    	 	  </div>
-                              
-                    	 </div>
+                              <div class = "row conclusion">
+                                   <div class="col-xs-12 ">
+                                        <p>Pelosi Wants Trump to Postpone State of the Union</p>
+                                   </div>     
+                              </div>
+
+                              <article class = "row featured">
+                                   <div class="col-xs-12">
+                                       <img src="img/jared.jpg" alt = "jared" class = "img-responsive"> 
+                                       <h4 class = "black">Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
+                                       <p>A Washington Post report describes the rising influence of the president's son-in-law.</p> 
+                                   </div>
+                                   
+                              </article>
+
+                              <div class = "row conclusion" >
+                                   <div class = "class-xs-12">
+                                        <p>Pelosi Wants Trump to Postpone State of the Union</p>
+                                   </div>
+                                   
+                              </div>
+                              <article class = "row featured">
+                                   <div class="col-xs-12">
+                                       <img src="img/gettyimages-170854733.jpg" alt = "gettyimges" class = "img-responsive"> 
+                                       <h4 class = "black">Leaked Mueller Evidence Was Dismissed as 'Ridiculous'</h4>
+                                       <p>"They had this grand plan, and it all went to hell," said independent disinformation researcher Josh Russell.</p> 
+                                   </div>
+                                   
+                              </article>
+
+                              <div class = "row conclusion" >
+                                   <div class = "class-xs-12">
+                                        <p>China Asks if U.S. So Strong, Why Is It So ‘Afraid’?</p>
+                                   </div>
+                                   
+                              </div>
+  
+                         </div>
 
                     </div>
-	 	  	   </div>
+               </div>
                <!-- The second columns -->
-	 	  	   <div class = "col-xs-12 col-sm-6 col-md-5">
-	 	  	   	    <div class = "row " style ="margin-left: 5px">
-                    	 <div class = "col-xs-12">
-                    	 	  <p>TOP STORIES</p>
-                              <div class = "row">
-                              	  <div class = "" >
-                              	  	<img src="img/supreme-court.jpg" width ="450"> 
-                              		<h4>Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
-                              		<p>With House Speaker Nancy Pelosi and President Donald Trump vowing not to give in, the House and Senate will take diverging paths this week on spending legislation.</p>
-                    	 	  	  </div>
-                              </div>
+               <div class = " col-sm-6  col-md-5 col-xs-12">
+                   
+                    <div class = "row " style ="margin-left: 5px">
+                         <div class = "col-xs-12">
+                              <p class = "add-mrg-top">TOP STORIES</p>
+                                   <div class = "row">
+                                        <div class="col-xs-12" >
+
+                                            <img src="img/supreme-court.jpg" alt = "supreme court" class = "img-responsive"> 
+                                            <h4 class ="black">Trump, Pelosi Back Into Respective Corners on Shutdown</h4>
+                                            <p>With House Speaker Nancy Pelosi and President Donald Trump vowing not to give in, the House and Senate will take diverging paths this week on spending legislation.</p>
+                                        </div>
+                                   </div>
+
                               <div class = "row conclusion" >
-                    	 	  	   <p>Pelosi Wants Trump to Postpone State of the Union</p>
-                    	 	  </div>
+                                   <div class = "col-xs-12">
+                                        <p>Pelosi Wants Trump to Postpone State of the Union</p>
+                                   </div>
+                                   
+                              </div>
 
                               <div class = "row">
-                    	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                                  <div class = "col-xs-12 stories" >
+                                       <img src="img/gettyimages2.jpg" alt = "gettyimage" class = "img-responsive" >
+                                       <div class = "title-opinion">
+                                           <p class = "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                           <p>The president agreed to Nancy Pelosi's request to delay the address during the ongoing government shutdown.</p>
+                                        </div>
                                   
-                    	 	    </div>
+                                   </div>
                                 
-                    	 	 </div>
+                              </div>
 
-                    	 	 <div class = "row">
-                    	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                               <div class = "row">
+                                  <div class = "col-xs-12 stories" >
+                                     <img src="img/gettyimages2.jpg" alt = "gettyimages2" class = "img-responsive" >
+                                     <div class = "title-opinion">
+                                        <p class="black" >Russian 'Troll Farm' Evicted After Bomb Threats</p>
+                                        <p>The Internet Research Agency targeted in Robert Mueller's Russia probe was forced to leave its St. Petersburg headquarters after five days of threats.</p>
+                                     </div>
                                   
-                    	 	    </div>
+                                  </div>
                                 
-                    	 	 </div>
+                               </div>
 
-                    	 	 <div class = "row">
-                    	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                               <div class = "row">
+                                  <div class = "col-xs-12 stories" >
+                                     <img src="img/gettyimages-1083972282.jpg" alt = "gettyimages" class = "img-responsive">
+                                     <div class = "title-opinion">
+                                        <p class="black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                        <p>A Washington Post report describes the rising influence of the president's son-in-law.</p>
+                                     </div>
                                   
-                    	 	    </div>
+                                   </div>
                                 
-                    	 	 </div>
+                               </div>
 
-                    	 	 <div class = "row">
-                    	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                               <div class = "row">
+                                  <div class = "col-xs-12 stories" >
+                                     <img src="img/gettyimages2.jpg" alt = "gettyimages2" class = "img-responsive">
+                                     <div class = "title-opinion">
+                                        <p class="black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                        <p>By Robert Reich</p>
+                                     </div>
                                   
-                    	 	    </div>
+                                  </div>
                                 
-                    	 	 </div>
-                    	 </div>
+                               </div>
+
+                               <div class = "row">
+                                  <div class = "col-xs-12 stories" >
+                                     <img src="img/gettyimages-1083972282.jpg" alt = "embassy" class = "img-responsive">
+                                     <div class = "title-opinion">
+                                        <p class="black">Mueller Probe a ‘Speeding Bullet’ Heading for Trump</p>
+                                        <p>President Donald Trump’s ally and former adviser Roger Stone, indicted by special counsel Robert Mueller, told him to “wake up.”</p>
+                                     </div>
+                                  
+                                  </div>
+                                
+                               </div>
+                         </div>
                          
                     </div>
 
-	 	  	   </div>
-	 	  	   <!-- The third columns -->
+               </div>
+               <!-- The third columns -->
                <div class = "col-xs-12 col-sm-6 col-md-4">
-               	    <div class = "row ">
-                    	 <div class = "col-xs-12">
-                    	 	<p>OPINION</p>
-
-
-                    	 	 <div class = "row">
-                    	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                    <div class = "row ">
+                         <div class = "col-xs-12">
+                              <p class = "add-mrg-top" style="margin-left : 5px">OPINION</p>
+                              <div class = "row">
+                                   <div class = "col-xs-12">
+                                        <div class = "opinion" >
+                                             <img src="img/robert_reich.png"  alt = "rober reich" class = "img-circle img-responsive">
+                                             <div class = "title-opinion">
+                                                  <p><a href="">Trump's Shutdown Reveals Failure of Trumponomics.</a></p>
+                                                  <p>By Robert Reich</p>
+                                             </div>
                                   
-                    	 	    </div>
-
-                    	 	 </div>
+                                        </div>
+                                   </div>   
+                               </div>
 
                               
 
                               <div class = "row">
-                    	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                                  <div class = "col-xs-12"> 
+                                  <div class = "opinion" >
+                                      <img src="img/gingrich.png" alt = "gingrich" class = "img-circle">
+                                      <div class = "title-opinion">
+                                        <p><a href="">Trump's Shutdown Reveals Failure of Trumponomics.</a></p>
+                                        <p>By Robert Reich</p>
+                                      </div>
                                   
-                    	 	    </div>
+                                   </div>
+                                   </div>  
+                               </div>
 
-                    	 	 </div>
-
-                    	 	 <div class = "row">
-                    	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                              <div class = "row">
+                                   <div class = "col-xs-12">
+                                        <div class = "opinion" >
+                                             <img src="img/lee_habeeb.png" alt = "lee_habeeb" class = "img-circle">
+                                             <div class = "title-opinion">
+                                             <p><a href="">Trump's Shutdown Reveals Failure of Trumponomics.</a></p>
+                                             <p>By Robert Reich</p>
+                                             </div>
                                   
-                    	 	    </div>
+                                        </div>
+                                   </div>
+                               </div>
 
-                    	 	 </div>
+                              <div class = "row">
+                                   <div class = "col-xs-12">
+                                        <div class = "opinion" >
+                                             <img src="img/nina4.png" alt = "nina" class = "img-circle">
+                                             <div class = "title-opinion">
+                                                  <p><a href="">Trump's Shutdown Reveals Failure of Trumponomics.</a></p>
+                                                  <p>By Robert Reich</p>
+                                             </div>
+                                        </div>
+                                   </div>
 
-                    	 	 <div class = "row">
-                    	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                               </div>
+
+                               <div class = "row">
+                                   <div class = "col-xs-12">
+                                        <div class = "opinion" >
+                                             <img src="img/peter_roff.png" alt = "peter roff" class = "img-circle">
+                                             <div class = "title-opinion">
+                                                  <p><a href="">Trump's Shutdown Reveals Failure of Trumponomics.</a></p>
+                                                  <p>By Peter Roff</p>
+                                             </div>
                                   
-                    	 	    </div>
+                                        </div>
+                                  </div>
+                               </div>
+                               
 
-                    	 	 </div>
-
-                    	 	 <div class = "row">
-                    	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                               <div class = "row">
+                                   <div class = "col-xs-12">
+                                        <div class = "opinion" >
+                                              <img src="img/richardson3.png" alt = "ridchardson" class = "img-circle">
+                                              <div class = "title-opinion">
+                                                  <p><a href="">Trump's Shutdown Reveals Failure of Trumponomics.</a></p>
+                                                  <p>By Peter Roff</p>
+                                             </div>
                                   
-                    	 	    </div>
+                                        </div>
+                                  </div>
+                               </div> 
+                               
 
-                    	 	 </div>
-                    	 	 
+                              <div class = "row">
+                                   <div class = "latest-news">
+                                        <h4>Latest News</h4>
+                                   </div>
+                                   
+                                   <div class = "col-xs-12 stories" >
 
-                    	 	 <div class = "row">
-                    	 	    <div class = "opinion" >
-                    	 	  	  <img src="img/robert_reich.png"  class = "img-circle">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                                        <img src="img/latest1.jpg" alt = "supreme court" width = "120" height="80">
+                                        <div class = "title-opinion">
+                                             <p class= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                   
+                                        </div>
                                   
-                    	 	    </div>
-
-                    	 	 </div> 
-                    	 	 
-
-                    	 	 <div class = "row">
-                    	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
-                                  
-                    	 	    </div>
+                                   </div>
                                 
-                    	 	 </div>
+                              </div>
 
-                    	 	 <div class = "row">
-                    	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                              <div class = "row">
+                                  <div class = "col-xs-12 stories" >
+                                     <img src="img/latest2.jpg" alt = "supreme" width = "120" height="80">
+                                     <div class = "title-opinion">
+                                          <p class= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                     </div>
                                   
-                    	 	    </div>
+                                  </div>
                                 
-                    	 	 </div>
+                               </div>
 
-                    	 	 <div class = "row">
-                    	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                               <div class = "row">
+                                  <div class = "col-xs-12 stories" >
+                                     <img src="img/culture3.jpg" alt = "supreme" width = "120" height="80">
+                                     <div class = "title-opinion">
+                                          <p class= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                   
+                                     </div>
                                   
-                    	 	    </div>
+                                  </div>
                                 
-                    	 	 </div>
+                               </div>
 
-                    	 	 <div class = "row">
-                    	 	    <div class = "stories" >
-                    	 	  	  <img src="img/supreme-court.jpg"  width = "120" height="80" class = "">
-                    	 	  	  <div class = "title-opinion">
-                    	 	  	  	  <p>Trump's Shutdown Reveals Failure of Trumponomics.</p>
-                                      <p>By Robert Reich</p>
-                    	 	  	  </div>
+                               <div class = "row">
+                                  <div class = "col-xs-12 stories" >
+                                        <img src="img/supreme-court.jpg" alt = "trump-pelosi" width = "120" height="80">
+                                        <div class = "title-opinion">
+                                             <p class= "black">Trump's Shutdown Reveals Failure of Trumponomics.</p>
+                                   
+                                        </div>
                                   
-                    	 	    </div>
+                                   </div>
                                 
-                    	 	 </div>                               
-                    	 </div>
+                               </div>                               
+                         </div>
 
                     </div>
                </div> 
-          </div>
-          <!-- in-the-magazine  Row -->
-          <div class = "row in-the-magazine">
-          	   <p>IN THE MAGAZINE</p>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	   <img src="img/trump-pelosi.jpg" >
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p> 
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	   <img src="img/trump-pelosi.jpg" >
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p> 
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3 col-magazine">
-          	   	    <img src="img/trump-pelosi.jpg">
-          	   	   <p>Computer Program and Teenager Compete for AI Domination</p>
-          	   </div>
+          </div>   
+
+
+           <div class = "row in-the-magazine">
+               
+               <div class = "col-xs-12 col-sm-3">
+                    <div class = "row">
+                         <div class = "col-xs-12">
+                              <img src="img/cover.jpg" alt = "cover" class = "img-responsive">
+                              <p class="black">Computer Program and Teenager Compete for AI Domination</p>
+                         </div>
+                    </div>
+                    <div class = "row">
+                         <div class = "col-xs-12">
+                              <img src="img/brain.jpg" alt = "trump-pelosi"  class = "img-responsive">
+                              <p class="black">Computer Program and Teenager Compete for AI Domination</p>
+                         </div>
+                    </div>
+               </div>
+
+               <div class = "col-xs-12 col-sm-9">
+                    <h3 class="text-center black row-magazine ">IN THE MAGAZINE</h3>
+                    <div class= "row ">
+                         <div class = "col-xs-12 col-sm-4 ">
+                             <img src="img/banner.jpg"  alt = "trump-pelosi" class = "img-responsive">
+                             <button class ="mybutton2">DOWNLOAD</button>
+                             <h4 class= "black">Computer Program and Teenager Compete for AI Domination</h4>
+                         </div>
+                         <div class = "col-xs-12 col-sm-4 ">
+                             <img src="img/femerkel.jpg" alt = "trump-pelosi" class = "img-responsive" >
+                             <button class ="mybutton2">DOWNLOAD</button>
+                             <h4 class= "black">Computer Program and Teenager Compete for AI Domination</h4>
+                         </div>
+                         
+                         <div class = "col-xs-12 col-sm-4 ">
+                             <img src="img/culroma.jpg" alt = "trump-pelosi" class = "img-responsive" >
+                             <button class ="mybutton2">DOWNLOAD</button>
+                             <h4 class= "black">Computer Program and Teenager Compete for AI Domination</h4>
+                         </div>
+                    </div>
+
+                    <div class= "row">  
+                         <div class = "col-xs-12 col-sm-4 ">
+                             <img src="img/fetrumpchina.jpg" alt = "trump-pelosi" class = "img-responsive" >
+                             <button class ="mybutton2">DOWNLOAD</button>
+                             <h4 class= "black">Computer Program and Teenager Compete for AI Domination</h4>
+                         </div>
+                         
+                         <div class = "col-xs-12 col-sm-4 ">
+                             <img src="img/culmagicians01.jpg" alt = "trump-pelosi" class = "img-responsive" >
+                             <button class ="mybutton2">DOWNLOAD</button>
+                             <h4 class= "black">Computer Program and Teenager Compete for AI Domination</h4>
+                         </div>
+                         <div class = "col-xs-12 col-sm-4 ">
+                             <img src="img/culmagicians01.jpg"  alt = "trump-pelosi" class = "img-responsive" >
+                             <button class ="mybutton2">DOWNLOAD</button>
+                             <h4 class= "black">Computer Program and Teenager Compete for AI Domination</h4>
+                         </div>
+                    </div>
+
+                    
+               </div>              
           </div> 
           <!-- in-the-magazine  Row -->
 
+          <!-- Pick Editors  Row -->
           <div class = "row">
-               <h1 class="text-center">Featured Slideshows</h1>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
-                    <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
+                  <h3 class="text-center black editors-pick">EDITOR'S PICK</h4>
+                  
+                      <div class = "col-xs-12 col-sm-6 col-md-3">
+                        <img src="img/editor1.jpg" alt = "cover" class = "img-responsive">
+                        <h4 class="black">Weed Use in Teens Linked to Suicide, Depression: Study</h4>
+                        <p>Researchers did not find a link between using the drug and developing anxiety, however.</p>
+                      </div>
+                      <div class = "col-xs-12 col-sm-6 col-md-3">
+                          <img src="img/editor2.jpg" alt = "cover" class = "img-responsive">
+                          <h4 class="black">Democrats’ Probe Won’t Observe Trump ‘Red Line’: Report</h4>
+                          <p>Trump had warned special counsel Robert Mueller not to delve into his family’s finances, but they are reportedly very much within the scope of the House Democrats' investigation.</p>
+                      </div>
+                      <div class = "col-xs-12 col-sm-6 col-md-3">
+                          <img src="img/editor3.jpg" alt = "cover" class = "img-responsive">
+                           <h4 class="black">Was Jesus Really a Greek Philosopher?</h4>
+                          <p>The show, available on Amazon Prime, also claims that aliens feature in the Tower of Babel story.</p>
+                      </div>
+                      <div class = "col-xs-12 col-sm-6 col-md-3">
+                          <img src="img/editor5.jpg" alt = "cover" class = "img-responsive">
+                           <h4 class="black">AOC: Lobbyists Pay People to Save House Hearing Seat</h4>
+                          <p>Hiring people, including the homeless, to stand in line before congressional hearings is seemingly a common occurrence in Washington.</p>
+                      </div>
+                              
+          </div>
+
+          <div class = "row">
+                      <div class = "col-xs-12 col-sm-6 col-md-3">
+                          <img src="img/editor6.jpg" alt = "cover" class = "img-responsive">
+                          <h4 class="black">Once a Flop, Sondheim's ‘Merrily’ Set to Rise Again</h4>
+                          <p>It may have bombed in its first incarnation back in 1981, but “Merrily We Roll Along” has changed and flourished over the years.</p>
+                      </div>
+                      <div class = "col-xs-12 col-sm-6 col-md-3">
+                          <img src="img/editor7.jpg" alt = "cover" class = "img-responsive">
+                          <h4 class="black">Most Spectacular Images Taken by Mars Rover</h4>
+                          <p >Spectacular images captured by Spirit, Opportunity and Curiosity, from selfies to breathtaking Martian mountain landscapes.</p>
+                      </div>
+                      <div class = "col-xs-12 col-sm-6 col-md-3">
+                          <img src="img/editor8.jpg" alt = "cover" class = "img-responsive">
+                          <h4 class="black">Bill Cosby's Wife Hasn't Visited Him in Prison</h4>
+                          <p>Cosby has lost weight while in prison, thanks to an exercise and diet program, and is having an "amazing experience," his spokesman said.</p>
+                      </div>
+
+                      <div class = "col-xs-12 col-sm-6 col-md-3">
+                          <img src="img/editor9.jpg" alt = "cover" class = "img-responsive">
+                          <h4 class="black">Underground Volcanism Could Cause Liquid Water on Mars</h4>
+                          <p>There may be liquid water below Mars's southern polar ice cap, and it may be sustained by underground volcanic activity.</p>
+                      </div>
+          </div>
+                 
+
+          <div class = "row ">
+               <h3 class="text-center black magazine-featured">Featured Slideshows</h3>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <img src="img/slideshow.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h4 class="black">Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
                </div>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
-                    <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <img src="img/image-00.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h4 class="black">Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
                </div>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
-                    <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
-               </div>
-             </div>
-             <div class = "row">
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
-                    <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
-               </div>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
-                    <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
-               </div>
-               <div class = "col-xs-12 col-sm-3 d-flex">
-                    <img src="img/slideshow.jpg" max-width = "100%">
-                    <h4>Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <img src="img/image-00_1.jpg"  alt = "trump-pelosi" class = "img-responsive">
+                    <h4 class="black">Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
                </div>
           </div>
 
-
           <div class = "row">
-          	   <h1>U.S</h1>
-          	   <div class = "col-xs-12 col-sm-3">
-          	   	    <img src="img/photo1.jpg" width = "280">
-          	   	    <h4>Measles Prompts Health Emergency in Washington County</h4>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-3">
-          	   	    <img src="img/photo1.jpg" width = "280">
-          	   	    <h4>Measles Prompts Health Emergency in Washington County</h4>
-          	   </div>
-          	   <div class = "col-xs-12 col-sm-6 ">
-          	   	    <div class = "row">
-          	   	    	 <div class = "col-sm-12 last-col-magazine">
-          	   	    	 	  <img src="img/photo1.jpg">
-          	   	              <p>Measles Prompts Health Emergency in Washington County</p>
-          	   	    	 </div>
-          	   	    	 
-          	   	    </div>
-          	   	    <div class = "row">
-          	   	    	 <div class = "col-sm-12 last-col-magazine">
-          	   	    	 	  <img src="img/photo1.jpg">
-          	   	              <p>Measles Prompts Health Emergency in Washington County</p>
-          	   	    	 </div>
-          	   	    	 
-          	   	    </div>
-          	   	    <div class = "row">
-          	   	    	 <div class = "col-sm-12 last-col-magazine">
-          	   	    	 	  <img src="img/photo1.jpg">
-          	   	              <p>Measles Prompts Health Emergency in Washington County</p>
-          	   	    	 </div>
-          	   	    	 
-          	   	    </div>
-          	   	    
-          	   </div>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <img src="img/fire.jpg"  alt = "trump-pelosi" class = "img-responsive">
+                    <h4 class="black">Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
+               </div>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/slideshow.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h4 class="black">Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
+               </div>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <img src="img/image-00_11.jpg"  alt = "trump-pelosi" class = "img-responsive">
+                    <h4 class="black">Venezuela: Deadly Crackdown on ‘U.S.-Backed Coup’ as Maduro Rival Claims Presidency</h4>
+               </div>
+          </div>
+          <!-- US  Row -->
+          <div class = "row row-various">
+               <h4 class = "red">U.S.</h4>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/cruise-ship.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>Elderly Cruise Ship Passenger Medevaced After Fall</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/photo1.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>Measles Prompts Health Emergency in Washington County</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = "last-col">
+                                  <img src="img/lindsey.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                  <p class = "black">Lindsey Graham Slams Roger Stone Arrest Tactics</p>
+                              </div>
+                              
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col ">
+                                <img src="img/steven-michael-berlin.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                <p class = "black">Florida Man Holds up Chinese Restaurant at Finger-point</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12">
+                              <div class = " last-col">
+                                <img src="img/charles-mcdowell.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                <p class ="black">Man With Viral 'Wide Neck' Mugshot Back in Jail</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                        
+               </div>
+          </div>
+          <!-- word  Row --> 
+          <div class = "row row-various">
+               <h4 class = "red">World</h4>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/world1.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>Russia to Host Iran as U.S. Tries to Rally Against It</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/world2.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>Will U.S. Send Troops to Colombia? Trump: 'You'll See'</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col">
+                                  <img src="img/world3.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                  <p class = "black">Trump Official Clashes with Ilhan Omar over Venezuela</p>
+                              </div>
+                              
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col ">
+                                <img src="img/world4.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                <p class = "black">Will U.S. Send Troops to Colombia? Trump: 'You'll See'</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12">
+                              <div class = " last-col">
+                                <img src="img/world5.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                <p class ="black">Man With Viral 'Wide Neck' Mugshot Back in Jail</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                        
+               </div>
           </div>
 
+          <!-- Buisness  Row -->
+          <div class = "row row-various">
+               <h4 class = "red">Business</h4>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/business1.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>4 Ways to Deal With Criticism Constructively</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/business2.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>What Are the Questions to Ask at Networking Events?</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col">
+                                  <img src="img/business3.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                  <p class = "black">Is It True Recruiters Reject a Resume in 6 Seconds?</p>
+                              </div>
+                              
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = "last-col ">
+                                <img src="img/business4.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                <p class = "black">8 Ways Wealthy People Make Their Own 'Luck'</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12">
+                              <div class = "last-col">
+                                <img src="img/business5.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                <p class ="black">8 Tips For Making a Great First Impression</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                        
+               </div>
+          </div>
+           
+          <!-- Tech and science  Row -->
+          <div class = "row row-various">
+               <h4 class = "red">Tech & Science</h4>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/science1.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>Earth's Magnetic Field Will Reverse One Day—Here's Why</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/science2.png" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>Streamer HelenaLive Speaks Out After Being Banned</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col">
+                                  <img src="img/science3.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                  <p class = "black">Second Huge Meteor Impact Crater Found In Greenland</p>
+                              </div>
+                              
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col ">
+                              <img src="img/science4.jpg" alt = "trump-pelosi" class = "img-responsive">
+                              <p class = "black">Earliest Evidence of Movement in Organisms Found</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12">
+                              <div class = " last-col">
+                              <img src="img/science5.jpg" alt = "trump-pelosi" class = "img-responsive">
+                              <p class ="black">Global Warming: Map Shows Climate in Your Area in 2080</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                        
+               </div>
+          </div>
 
-          <footer class="container">
+          <!-- Culture  Row -->
+          <div class = "row row-various">
+               <h4 class = "red">Culture</h4>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/culture1.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>‘Game of Thrones’ Spinoff: What We Know So Far</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/culture2.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>Senior Couples Share the Secret to Everlasting Love</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col">
+                                  <img src="img/culture3.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                  <p class = "black">When Does ‘Doom Patrol’ Come to DC Universe</p>
+                              </div>
+                              
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col ">
+                              <img src="img/culture4.jpg" alt = "trump-pelosi" class = "img-responsive">
+                              <p class = "black">‘The Umbrella Academy’ Release Time</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12">
+                              <div class = " last-col">
+                              <img src="img/culture5.jpg" alt = "trump-pelosi" class = "img-responsive">
+                              <p class ="black">Alan Parker’s 75th Birthday: His Movies Ranked</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                        
+               </div>
+          </div>
+
+          <!-- Sport  Row -->
+          <div class = "row row-various">
+               <h4 class = "red">Sports</h4>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/sport1.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>Wisconsin Player Defends Right to Sit During Anthem</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4">
+                    <img src="img/sport2.jpg" alt = "trump-pelosi" class = "img-responsive">
+                    <h3>Fans Wear 'Build the Wall' Jerseys at Kings Game</h3>
+               </div>
+               <div class = "col-xs-12 col-sm-4 ">
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col">
+                                  <img src="img/sport3.jpg" alt = "trump-pelosi" class = "img-responsive">
+                                  <p class = "black">Kevin McHale Swears Live on Air During Celtics Vs 76ers</p>
+                              </div>
+                              
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12 last-col-magazine">
+                              <div class = " last-col ">
+                              <img src="img/sport4.jpg" alt = "trump-pelosi" class = "img-responsive">
+                              <p class = "black">Video: Embiid Says 'Referees F***ing Suck' After Loss</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                    <div class = "row">
+                         <div class = "col-sm-12">
+                              <div class = " last-col">
+                              <img src="img/sport5.jpg" alt = "trump-pelosi" class = "img-responsive">
+                              <p class ="black">Duke Stuns Louisville with Incredible 23-point Comeback</p>
+                              </div>
+                         </div>
+                          
+                    </div>
+                        
+               </div>
+          </div>
+
+          <footer >
           	   <div class= "row row1-footer">
-          	   	    <div class = "col-xs-12 col-sm-3">
-          	   	    	<p><span>Newsweek</span> © 2019 NEWSWEEK </p>
-          	   	    </div>
-          	   	    <div class = "col-xs-12 col-sm-3 pull-right">
-          	   	    	<ul>
-                        <li>fb</li>
-                        <li>tw</li>
-                        <li>g+</li>
-                        <li>inst</li>
-                        <li>tmblr</li>
-                        <li>in</li>
-                      </ul>
-          	   	    </div>
+          	   	<div class = " col-sm-7">
+          	   	    <p><span><a class="brand3" href="/"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g><path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2   L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11   c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6     H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13 c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2     C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7   h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4     c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1    c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6    C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5  h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9 c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2     c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9 C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1     c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6 v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3   c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5 h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path></g></svg></a></span> © 2019 NEWSWEEK </p>
+          	   	</div>
+          	   	<div class = " col-sm-5 ">
+          	   	    <ul class="nav nav-pills nav1 pull-right">
+                             <li ><i class="fa fa-facebook"></i></li>
+                             <li><i class="fa fa-twitter"></i></li>
+                             <li><i class="fa fa-google-plus"></i></li>
+                             <li><i class="fa fa-instagram"></i></li>
+                             <li><i class="fa fa-tumblr"></i></li>
+                             <li><i class="fa fa-linkedin"></i></li>
+                        </ul>
+          	   	</div>
           	   </div>
           	   <div class= "row row2-footer">
-          	   	    <div class = "col-xs-12 col-sm6">
-                     <ul>
-                        <li>About Us</li>
-                        <li>Corrections</li>
-                        <li>Contact Us+</li>
-                        <li>Travel</li>
-                        <li>Advertise</li>
-                        <li>Copyright</li>
-                        <li>Terms & Conditions</li>
-                        <li>Privacy Policy</li>
-                        <li>Cookie Policy</li>
-                        <li>Terms of Sale</li>
-                        <li>Archive</li>
-                        <li>Announcements</li>
-                        <li>Consent preferences</li>
-                     </ul> 
-                    </div>
-                    <div class = "col-xs-12 col-sm6">
-                     <ul>
-                        <li>U.S. Edition</li>
-                        <li>Middle East</li>
-                        <li>日本</li>
-                        <li>한국</li>
-                        <li>Pakistan</li>
-                        <li>Polska</li>
-                        <li>România</li>
-                     </ul> 
+          	   	    <div class = " col-sm-7">
+                        <ul class="nav nav-pills text-center nav2">
+                             <li >About Us </li>
+                             <li>Corrections </li>
+                             <li>Contact Us+ </li>
+                             <li>Travel </li>
+                             <li>Advertise </li>
+                             <li>Copyright </li>
+                             <li>Terms & Conditions</li>
+                             <li>Privacy Policy</li>
+                             <li>Cookie Policy </li>
+                             <li>Terms of Sale </li>
+                             <li>Archive </li>
+                             <li>Announcements </li>
+                             <li>Consent preferences </li>
+                         </ul> 
+                         </div>
+                    <div class = "col-xs-12 col-sm-5">
+                        <ul class = "nav nav-pills nav3">
+                             <li>U.S. Edition:</li>
+                             <li>Middle East </li>
+                             <li>日本</li>
+                             <li>한국 </li>
+                             <li>Pakistan</li>
+                             <li>Polska</li>
+                             <li>România</li>
+                        </ul> 
+                         
                     </div>
           	   </div>
           </footer>
 	 </div>
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-     <script type="text/javascript" src ="js/bootstrap.min.js"></script>
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
+      <script type="text/javascript" src ="js/bootstrap.min.js"></script>
 </body>
 </html>
